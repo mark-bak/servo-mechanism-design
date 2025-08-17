@@ -46,13 +46,17 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build .
+        jupyter-book build servo_hydraulic_actuator_pressure_control.ipynb
+	
+
 
     # Upload the book's HTML as an artifact
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: "_build/html"
+        path: "_build/_page/servo_hydraulic_actuator_pressure_control/html"
+	
+html"
 
     # Deploy the book's HTML to GitHub Pages
     - name: Deploy to GitHub Pages
