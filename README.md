@@ -4,9 +4,7 @@ Notebook for design of mechanism to provide control of pressure in a closed hydr
 
 Motor -> mechanical drive -> master cylinder
 
-GH pages:
-
-Binder: 
+[NBviewer](https://nbviewer.org/github/mark-bak/servo-mechanism-design/blob/main/servo_hydraulic_actuator_pressure_control.ipynb)
 
 ## Components
 ### Motor:
