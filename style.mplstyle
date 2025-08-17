@@ -1,0 +1,18 @@
+figure.dpi: 800
+
+lines.linewidth: 0.5
+
+axes.linewidth: 0.5
+axes.labelweight: ultralight
+axes.labelsize: small
+
+xtick.major.width:   0.5     # major tick width in points
+xtick.minor.width:   0.3     # minor tick width in points
+
+ytick.major.width:   0.5     # major tick width in points
+ytick.minor.width:   0.3     # minor tick width in points
+
+font.size: 5.0
+
+grid.linestyle: -          # solid
+grid.linewidth: 0.3       # in points
